@@ -1,0 +1,40 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  background: #eeeeee
+}
+
+span.email {
+    font-size: 0.9em;
+    padding-left: 0.5em;
+    text-transform: lowercase;
+    font-family: monospace;  
+  }
+  
+  span.email::before {
+    content: "<"
+  }
+  
+  span.email::after {
+    content: ">"
+  }
+  
+.success {
+    color: green;
+}
+
+.warning {
+    background: orange;
+    color: white;
+}
+
+.bg-img-bottom-y {
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 100px;
+}
