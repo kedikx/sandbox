@@ -1,6 +1,6 @@
-import { render } from "react-dom";
+import React from "react"
+import { render } from "react-dom"
 import CssBaseline from "@material-ui/core/CssBaseline"
-import { useTheme } from '@material-ui/core/styles';
 import ThemeProvider from "./ThemeProvider"
 import AppBar from "@material-ui/core/AppBar"
 import Toolbar from '@material-ui/core/Toolbar'
